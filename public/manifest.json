@@ -1,7 +1,7 @@
 {
     "theme_color": "#f8fafc",
     "background_color": "#f8fafc",
-    "display": "minimal-ui",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
     "name": "Minmax",
