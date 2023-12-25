@@ -1,0 +1,32 @@
+{
+    "theme_color": "#f8fafc",
+    "background_color": "#f8fafc",
+    "display": "minimal-ui",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Minmax",
+    "short_name": "minmax",
+    "description": "Skill and life optimizing resource",
+    "icons": [
+      {
+        "src": "/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
