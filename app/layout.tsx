@@ -40,16 +40,16 @@ export default function RootLayout({
               <summary className="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg></summary>
               <div tabIndex={0} className="dropdown-content mt-2">
                 <Link href='//'>
-                  <button className="btn btn-wide btn-outline border-gray-600 bg-base-200 mt-1">Home</button>
+                  <button className="btn btn-wide btn-outline  border-neutral-900 bg-base-200 mt-1">Home</button>
                 </Link>
                 <Link href='/Dashboard'>
-                  <button className="btn btn-wide btn-outline border-gray-600 bg-base-200 mt-1">Dashboard</button>
+                  <button className="btn btn-wide btn-outline border-neutral-900 bg-base-200 mt-1">Dashboard</button>
                 </Link>
                 <Link href='/About'>
-                  <button className="btn btn-wide btn-outline border-gray-600 bg-base-200 mt-1">About</button>
+                  <button className="btn btn-wide btn-outline border-neutral-900 bg-base-200 mt-1">About</button>
                 </Link>
                 <Link href='/Logout'>
-                  <button className="btn btn-wide btn-outline border-gray-600 bg-base-200 mt-1">Logout</button>
+                  <button className="btn btn-wide btn-outline border-neutral-900 bg-base-200 mt-1">Logout</button>
                 </Link>
               </div>
             </details>

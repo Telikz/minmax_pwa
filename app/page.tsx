@@ -14,7 +14,7 @@ export default function Home() {
               Focusing on meditation and more, Minmax covers nutrition, exercise, productivity, and creativity to help you reach new heights. Join us and level up your life today!</p>
             <Link href='/Dashboard'><button className="btn btn-primary mb-16">Get Started</button></Link>
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-5">
-              <button className='btn btn-ghost hover:bg-base-100 text-7xl static mt-20'>↓</button>
+              <button className='btn disabled btn-ghost hover:bg-base-100 text-5xl mt-20 '>↓</button>
             </div>
           </div>
         </div>
