@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   generator: "Next.js",
   manifest: "/manifest.json",
   keywords: ["nextjs", "nextjs13", "next13", "pwa", "next-pwa"],
-  themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#fff" }],
   authors: [
     { name: "Robin Olsen" },
     {
@@ -18,8 +17,7 @@ export const metadata: Metadata = {
       url: "https://github.com/Telikz",
     },
   ],
-  viewport:
-    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
+  
   icons: [
     { rel: "apple-touch-icon", url: "icons/icon-128x128.png" },
     { rel: "icon", url: "icons/icon-128x128.png" },
@@ -62,8 +60,8 @@ export default function RootLayout({
           </div>
         </div>
         <main>{children}</main>
-        <footer>
-          <div className='text-right text-xs'>Minmaxing© 2023</div>
+        <footer className="mt-auto text-right text-xs p-2">
+          <div>Minmaxing© 2023</div>
         </footer>
       </div>
     </html>
