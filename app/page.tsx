@@ -5,7 +5,7 @@ import { useRef } from 'react';
 export default function Home() {
   return (
     <div className='flex flex-col'>
-      <div className="hero bg-base-100" style={{ height: 'calc(100vh - 55px)' }}>
+      <div className="hero bg-base-100 h-screen">
         <div className="hero-content text-center">
           <div className="max-w-screen-lg">
             <h1 className="text-5xl font-bold">MINMAX</h1>
@@ -13,9 +13,6 @@ export default function Home() {
               MinMax turns personal growth into a game, enabling you to track progress, set goals, and receive tailored recommendations to unlock your potential.
               Focusing on meditation and more, Minmax covers nutrition, exercise, productivity, and creativity to help you reach new heights. Join us and level up your life today!</p>
             <Link href='/Dashboard'><button className="btn btn-primary mb-16">Get Started</button></Link>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-5">
-              <button className='btn disabled btn-ghost hover:bg-base-100 text-5xl mt-20 '>↓</button>
-            </div>
           </div>
         </div>
 

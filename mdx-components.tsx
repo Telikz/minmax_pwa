@@ -9,7 +9,12 @@ import Image from 'next/image'
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     // Allows customizing built-in components, e.g. to add styling.
-    h1: ({ children }) => <h1 className='text-xl'>{children}</h1>,
+    h1: ({ children }) => <h1 className='text-4xl p-2 font-extrabold'>{children}</h1>,
+    h2: ({ children }) => <h2 className='text-xl p-2 font-bold'>{children}</h2>,
+    h3: ({ children }) => <h3 className='text-xl p-2 font-semibold'>{children}</h3>,
+    p: ({ children }) => <p className=''>{children}</p>,
+
+
     ...components,
   }
 }
